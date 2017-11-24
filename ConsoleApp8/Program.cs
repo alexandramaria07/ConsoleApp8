@@ -13,6 +13,7 @@ namespace ConsoleApp8
             Animal[] animals = new Animal[] { new Dog("Mickeeey"), new Cat("Garfield"), new Horse("Patrick"), new Pig("Porky"),};
             foreach (Animal animal in animals)
             {
+                // Code review: how do you know if Mickeeey is a Dog?
                 animal.MakeSound();
             
             }
