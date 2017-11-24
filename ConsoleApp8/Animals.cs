@@ -8,6 +8,7 @@ namespace ConsoleApp8
 {
     class Animal
     {
+        // code review: breaks the encapsulation
         public string Name;
         public string Sound;
         public void MakeSound()
